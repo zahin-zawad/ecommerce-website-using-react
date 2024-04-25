@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "amazonEmber";
+    src: url("./assets/Amazon-Ember.ttf");
+  }
+
+.header{
+    height: 60px;
+    background-color: #131921;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    align-items: center;
+}
+.header-logo{
+    width: 100px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 18px;
+}
+.header-SearchIcon{
+    padding: 5px;
+    height: 22px !important;
+    background-color: #cd9042;
+}
+.header-search{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 24px;
+}
+.HeaderInputSearch{
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-option{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    font-family: amazonEmber, Arial, sans-serif;
+}
+.header-optionLineOne{
+    font-size: 10px;
+}
+.header-optionLineTwo{
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.shoppingCart{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.basketCount{
+    margin-right: 10px;
+    margin-left: 10px;
+}
